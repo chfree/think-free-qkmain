@@ -19,8 +19,8 @@ registerMicroApps([
   {
       name: "vue app",
       entry: "//localhost:8083",	// 重点8：对应重点6
-      container: '#vue',			// 重点9：对应重点2
-      activeRule: '/vue'			// 重点10：对应重点4
+      container: '#authority',			// 重点9：对应重点2
+      activeRule: '/system/vue'			// 重点10：对应重点4
   }]
 );
 // 启动

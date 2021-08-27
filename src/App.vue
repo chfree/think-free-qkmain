@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    App
     <span><router-link to="/">点击跳转到父页面</router-link></span>
-    <span><router-link to="/vue">点击跳转到子页面</router-link></span>
+    <span><router-link to="/system/person">点击跳转到父layout页面</router-link></span>
+    <span><router-link to="/system/vue">点击跳转到子页面</router-link></span>
     <router-view />
-    <div id="vue"></div>
   </div>
 </template>
 
