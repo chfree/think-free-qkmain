@@ -1,13 +1,13 @@
 import Router from 'vue-router'
 export default new Router({
-    mode:'history',
-    base:'',
+    // mode:'history',
+    // base:'',
     routes: [
       { path: '/', redirect: '/father'},
       { path: '/father', component: () => import('@/components/father') },
       {
-        name: 'system1',
-        path: '/system/*',
+        name: 'authority',
+        path: '/authority/*',
         component: () => import('@/components/system/layout')
       },
       {

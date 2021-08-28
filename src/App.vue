@@ -4,7 +4,7 @@
     App
     <span><router-link to="/">点击跳转到父页面</router-link></span>
     <span><router-link to="/system/person">点击跳转到父layout页面</router-link></span>
-    <span><router-link to="/system/vue">点击跳转到子页面</router-link></span>
+    <span><router-link to="/authority/">点击跳转到子页面</router-link></span>
     <router-view />
   </div>
 </template>
